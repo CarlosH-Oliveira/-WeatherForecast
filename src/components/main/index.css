@@ -1,0 +1,103 @@
+.weatherCard{
+    padding: 2rem;
+}
+
+.mainInfoCard{
+    display: flex
+}
+
+.temperatureCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25.5vw;
+    background-color: #404040;
+    color: #FFF;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7rem;
+}
+
+.temperatureDetails{
+    background-color: #303030;
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+    margin-left: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperatureDetailInfo{
+    display: flex;
+}
+
+.temperature{
+    margin-left: 0.5rem;
+    color: orange;
+}
+
+.changeScaleButtons{
+    margin-left: 1rem;
+}
+
+.changeScaleButtons button{
+    width: 2.5rem;
+    background: none;
+    border: 0;
+}
+
+#changeTemperatureScaleFahrenheit{
+    margin-top: 0.7rem;
+}
+
+.weatherInfo{
+    background-color: #404040;
+    color: #FFF;
+    padding: 1rem;
+    padding-right: 3rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.weatherTitle{
+    margin-top: 1rem;
+}
+
+.dateTime{
+    margin-top: 1rem;
+}
+
+.weatherTopicChange{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.topicChangeButton{
+    background-color: #000;
+    color: #FFF;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.daySelectionRow{
+    width: 36.4vw;
+    margin-top: 1rem;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+    background-color: #404040;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.dayItem{
+    height: 10vh;
+    margin-left: 1rem;
+    background-color: #252525;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}

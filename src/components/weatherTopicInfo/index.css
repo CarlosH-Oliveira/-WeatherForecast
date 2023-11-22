@@ -1,0 +1,28 @@
+.weatherTopicHour{
+    background-color: #404040;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 36.4vw;
+}
+
+.weatherTopicHourRow{
+    width: 31.6vw;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+}
+
+.weatherTopicHourItem{
+    margin-left: 1rem;
+    background-color: #252525;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.data{
+    color: #f8a310;
+}
